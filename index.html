@@ -2,7 +2,6 @@
 <title>Utkarsh Saraswat – Web Designer, Graphic Designer, Video Editor, Full Stack Developer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200..900&display=swap" rel="stylesheet">
-<link rel="icon" type="image/svg+xml" href="icon.svg">
 <style>
 :root{--ice:#FFFFFF;--navy:#000000;--navy2:#161616;--cob:#000000;--sky:#9A9A9A;--paper:#FFFFFF;--f:"Inter Tight","Helvetica Neue",Arial,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *,*::before,*::after{box-sizing:inherit}html{scroll-behavior:smooth}
@@ -131,14 +130,15 @@ html.cc,html.cc *{cursor:none!important}
 <div class="sp"><div class="sl"><span>Bash Delhi · Falling Sun · Frames</span><span>Web design</span></div><p class="big">Websites</p></div>
 <div class="sp"><div class="sl"><span>Falling Sun on Instagram</span><span>Graphic design</span></div><p class="big">Graphics</p></div>
 <div class="sp"><div class="sl"><span>Event footage and short reels</span><span>Video editing</span></div><p class="big">Video edits</p></div>
-<div class="sp"><div class="sl"><span>Samvaad · Raily · PinScrap · Nexos</span><span>Full stack</span></div><p class="big">Web apps</p></div>
+<div class="sp"><div class="sl"><span>Samvaad · Raily · Linker · PinScrap · Nexos</span><span>Full stack</span></div><p class="big">Web apps</p></div>
 </section>
-<section class="proj pad" id="projects" data-nav="#000000" data-label="Projects"><h2><span id="cnt">9</span> projects</h2>
+<section class="proj pad" id="projects" data-nav="#000000" data-label="Projects"><h2><span id="cnt">10</span> projects</h2>
 <div class="pr"><div class="pn"><a href="https://www.bashdelhi.xyz/" target="_blank" rel="noopener">Bash Delhi</a></div><div class="pm"><b>Web design</b><small>bashdelhi.xyz</small></div></div>
 <div class="pr"><div class="pn"><a href="https://fallingsun.in" target="_blank" rel="noopener">Falling Sun</a></div><div class="pm"><b>Web design</b><small>fallingsun.in</small></div></div>
 <div class="pr"><div class="pn"><a href="https://samvaad-coral.vercel.app" target="_blank" rel="noopener">Samvaad</a></div><div class="pm"><b>Web + hardware</b><small>Indian Sign Language recognition</small></div><a class="src" href="https://github.com/buildwithutkarsh-cpu/samvaad-src" target="_blank" rel="noopener">Source ↗</a></div>
 <div class="pr"><div class="pn"><a href="https://frames.delhiadda.xyz" target="_blank" rel="noopener">Frames</a></div><div class="pm"><b>Web design</b><small>frames.delhiadda.xyz</small></div></div>
 <div class="pr"><div class="pn"><a href="https://raily-india.vercel.app" target="_blank" rel="noopener">Raily</a></div><div class="pm"><b>Full stack</b><small>AI travel assistant for Indian Railways</small></div><a class="src" href="https://github.com/buildwithutkarsh-cpu/raily" target="_blank" rel="noopener">Source ↗</a></div>
+<div class="pr"><div class="pn"><a href="https://linker.buildwithutkarsh.workers.dev/" target="_blank" rel="noopener">Linker</a></div><div class="pm"><b>Full stack</b><small>URL shortener on Cloudflare Workers</small></div><a class="src" href="https://github.com/buildwithutkarsh-cpu/linker" target="_blank" rel="noopener">Source ↗</a></div>
 <div class="pr"><div class="pn"><a href="https://github.com/buildwithutkarsh-cpu/pinScrap" target="_blank" rel="noopener">PinScrap</a></div><div class="pm"><b>API</b><small>Pinterest search and download API</small></div></div>
 <div class="pr"><div class="pn"><a href="https://nexos-webstreet.vercel.app" target="_blank" rel="noopener">Nexos</a></div><div class="pm"><b>Web OS</b><small>A web OS in the browser, forked</small></div><a class="src" href="https://github.com/saraswatutkarsh27-cloud/nexos" target="_blank" rel="noopener">Source ↗</a></div>
 <div class="pr"><div class="pn"><a href="https://github.com/buildwithutkarsh-cpu/fableClip" target="_blank" rel="noopener">FableClip</a></div><div class="pm"><b>Code</b><small>On GitHub</small></div></div>
@@ -218,7 +218,7 @@ if(fine&&!rm){
 /* projects counter scramble */
 var cnt=$('#cnt');
 if(cnt&&!rm&&window.IntersectionObserver){new IntersectionObserver(function(es,io){if(es[0].isIntersecting){io.disconnect();var t0=performance.now();
-  (function f(n){var p=Math.min(1,(n-t0)/1100);cnt.textContent=p<1?Math.floor(Math.random()*10):'9';if(p<1)setTimeout(function(){requestAnimationFrame(f)},45)})(t0)}},{threshold:.4}).observe(cnt)}
+  (function f(n){var p=Math.min(1,(n-t0)/1100);cnt.textContent=p<1?Math.floor(Math.random()*10):'10';if(p<1)setTimeout(function(){requestAnimationFrame(f)},45)})(t0)}},{threshold:.4}).observe(cnt)}
 /* photo tilt */
 var fr=$('.frame'),shEl=$('.shot');
 if(fr&&fine&&!rm){shEl.addEventListener('mousemove',function(e){var r=shEl.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
